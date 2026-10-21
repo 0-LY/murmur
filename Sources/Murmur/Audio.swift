@@ -345,7 +345,7 @@ enum RecorderPlan: Equatable {
         return running ? .reuseRunning : .startPrepared
     }
 
-    static let idleSeconds: TimeInterval = 30
+    static let idleSeconds: TimeInterval = 0
 }
 
 enum MicModeName {
