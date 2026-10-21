@@ -1,0 +1,9 @@
+build/
+.build/
+.build-test/
+.build-ui/
+vendor/Sparkle
+dist/
+.DS_Store
+app.local.env
+.swiftpm/
